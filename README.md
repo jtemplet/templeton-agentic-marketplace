@@ -16,6 +16,9 @@ Install plugins:
 ```bash
 # Custom agent skills
 /plugin install tadw@templeton-agentic-marketplace
+
+# Business operations roles
+/plugin install tabo@templeton-agentic-marketplace
 ```
 
 ## Plugins
@@ -29,12 +32,20 @@ namespaced under `tadw:` (for example `tadw:fresh-eyes-cr`). See
 Installed under the old name `templeton-agentic-dev-workbench`? That name was retired in the
 plugin's 2.0.0. Uninstall it and install `tadw`; the two cannot coexist.
 
+### tabo
+
+Templeton Agentic Business Ops. The shared product-management and marketing-management role
+agents and their procedures, as skills namespaced under `tabo:` (for example `tabo:user-growth`).
+A company supplies its own context file; the plugin holds no company policy. See
+[jtemplet/templeton-agentic-business-ops](https://github.com/jtemplet/templeton-agentic-business-ops).
+
 ## Updating
 
 Update plugins:
 
 ```bash
 /plugin update tadw
+/plugin update tabo
 ```
 
 ## License
