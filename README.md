@@ -19,6 +19,9 @@ Install plugins:
 
 # Business operations roles
 /plugin install tabo@templeton-agentic-marketplace
+
+# Product management
+/plugin install tapm@templeton-agentic-marketplace
 ```
 
 ## Plugins
@@ -39,6 +42,16 @@ agents and their procedures, as skills namespaced under `tabo:` (for example `ta
 A company supplies its own context file; the plugin holds no company policy. See
 [jtemplet/templeton-agentic-business-ops](https://github.com/jtemplet/templeton-agentic-business-ops).
 
+### tapm
+
+Templeton Agentic Product Management. Product strategy, research, roadmap, brief, and A/B test
+design skills, the product-manager, product-analyst, and product-cartographer agents, and
+product-surface documentation, all namespaced under `tapm:` (for example `tapm:product-brief`).
+They moved here from `tadw`, whose changelog marks the move as breaking. Some of them name `tadw`
+components, and the `tadw` command `/product-surface-docs` runs `tapm:product-surface-docs`, so
+install both. See
+[jtemplet/templeton-agentic-product-management](https://github.com/jtemplet/templeton-agentic-product-management).
+
 ## Updating
 
 Update plugins:
@@ -46,6 +59,7 @@ Update plugins:
 ```bash
 /plugin update tadw
 /plugin update tabo
+/plugin update tapm
 ```
 
 ## License

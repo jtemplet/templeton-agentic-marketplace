@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "A personal marketplace for agent plugins",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
         "source": "url",
         "url": "https://github.com/jtemplet/templeton-agentic-dev-workbench.git"
       },
-      "description": "Templeton Agentic Dev Workbench: personal agents, skills, and commands for code, planning, product, and research work",
+      "description": "Templeton Agentic Dev Workbench: personal agents, skills, and commands for code, planning, and research work",
       "version": "latest",
       "author": {
         "name": "Jason Templeton",
@@ -28,6 +28,19 @@
         "url": "https://github.com/jtemplet/templeton-agentic-business-ops.git"
       },
       "description": "Templeton Agentic Business Ops: shared product and marketing role agents and their procedures, for running a company headless",
+      "version": "latest",
+      "author": {
+        "name": "Jason Templeton",
+        "email": "jtemplet@users.noreply.github.com"
+      }
+    },
+    {
+      "name": "tapm",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jtemplet/templeton-agentic-product-management.git"
+      },
+      "description": "Templeton Agentic Product Management: product strategy, research, roadmap, brief, and product-surface documentation skills and agents",
       "version": "latest",
       "author": {
         "name": "Jason Templeton",
