@@ -25,9 +25,9 @@
       "name": "tabo",
       "source": {
         "source": "url",
-        "url": "https://github.com/jtemplet/templeton-agentic-business-ops.git"
+        "url": "https://github.com/jtemplet/templeton-agentic-marketing-ops.git"
       },
-      "description": "Templeton Agentic Business Ops: shared product and marketing role agents and their procedures, for running a company headless",
+      "description": "Templeton Agentic Marketing Ops: shared product and marketing role agents and their procedures, for running a company headless",
       "version": "latest",
       "author": {
         "name": "Jason Templeton",
